@@ -2,7 +2,7 @@ package ro.teamnet.hero;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.testng.Assert;
+import org.junit.Assert;
 
 import java.math.BigDecimal;
 
