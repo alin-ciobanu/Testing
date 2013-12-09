@@ -22,7 +22,8 @@ public class MainOperations {
 
         // getting annotation from method
         String annotationValue;
-        annotationValue = m.getAnnotation(RequestMapping.class).value();
+        RequestMapping a = (RequestMapping) m.getAnnotation(RequestMapping.class);
+        annotationValue = a.value();
         System.out.println(annotationValue);
     }
 }

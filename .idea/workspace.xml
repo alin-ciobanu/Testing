@@ -85,7 +85,7 @@
       <file leaf-file-name="MainOperations.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/MainOperations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="42" selection-start="808" selection-end="808" vertical-scroll-proportion="0.6472081" vertical-offset="0" max-vertical-offset="493">
+            <state line="26" column="0" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.78426397" vertical-offset="48" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -672,12 +672,12 @@
       <updated>1386576997067</updated>
       <workItem from="1386577011588" duration="8020000" />
       <workItem from="1386596267111" duration="38000" />
-      <workItem from="1386605934992" duration="2725000" />
+      <workItem from="1386605934992" duration="3070000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10783000" />
+    <option name="totallyTimeSpent" value="11128000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -703,7 +703,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32972136" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32972136" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -823,7 +823,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/hero/MainOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="42" selection-start="808" selection-end="808" vertical-scroll-proportion="0.6472081" vertical-offset="0" max-vertical-offset="493">
+        <state line="26" column="0" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.78426397" vertical-offset="48" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
