@@ -1,42 +1,38 @@
 package ro.teamnet.hero;
 
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.testng.Assert;
 
 import java.math.BigDecimal;
 
-
 public class MathOperationsConstructTest {
 
-    private BigDecimal a;
-    private BigDecimal b;
-    MathOperations mathOperations;
+    MathOperationsConstruct mathOperationsConstruct;
 
     @Before
     public void setUp() throws Exception {
-        b=BigDecimal.ZERO;
-        a=BigDecimal.TEN;
-        mathOperations=
-                new MathOperations();
-    }
-
-    @Test
-    public void testDivide() throws Exception {
-        Assert.assertEquals(BigDecimal.ZERO, mathOperations.divide(b, a));
+        mathOperationsConstruct =
+                new MathOperationsConstruct(new BigDecimal(20), new BigDecimal(4));
     }
 
     @Test
     public void testAdd() throws Exception {
-        Assert.assertEquals(BigDecimal.TEN, mathOperations.add(a, b));
+        Assert.assertEquals(BigDecimal.valueOf(24), mathOperationsConstruct.add());
     }
 
     @Test
     public void testSubstract() throws Exception {
-        Assert.assertEquals(BigDecimal.TEN, mathOperations.substract(a, b));
-    } 
+        Assert.assertEquals(BigDecimal.valueOf(16), mathOperationsConstruct.substract());
+    }
+
     @Test
     public void testMultiply() throws Exception {
-        Assert.assertEquals(BigDecimal.ZERO, mathOperations.multiply(a, b));
+        Assert.assertEquals(BigDecimal.valueOf(80), mathOperationsConstruct.multiply());
+    }
+
+    @Test
+    public void testDivide() throws Exception {
+        Assert.assertEquals(BigDecimal.valueOf(5), mathOperationsConstruct.divide());
     }
 }

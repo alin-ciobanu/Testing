@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import java.math.BigDecimal;
 
-public class MathOperationsConstructTestNG {
+public class MathOperationsTestNG {
 
     private BigDecimal a;
     private BigDecimal b;
